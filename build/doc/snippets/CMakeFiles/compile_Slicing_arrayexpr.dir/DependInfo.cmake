@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Slicing_arrayexpr.cpp" "/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Slicing_arrayexpr.dir/compile_Slicing_arrayexpr.cpp.o"
+  "/root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Slicing_arrayexpr.cpp" "/root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Slicing_arrayexpr.dir/compile_Slicing_arrayexpr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

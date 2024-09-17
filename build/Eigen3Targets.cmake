@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(Eigen3::Eigen INTERFACE IMPORTED)
 
 set_target_properties(Eigen3::Eigen PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/user/work/cplusplus/submodule/eigen3.4"
+  INTERFACE_INCLUDE_DIRECTORIES "/root/cplusplus/submodule/eigen3.4"
 )
 
 # This file does not depend on other imported targets which have

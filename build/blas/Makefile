@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles /home/user/work/cplusplus/submodule/eigen3.4/build/blas/CMakeFiles/progress.marks
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles 0
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/cplusplus/submodule/eigen3.4/build/CMakeFiles /root/cplusplus/submodule/eigen3.4/build/blas/CMakeFiles/progress.marks
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/cplusplus/submodule/eigen3.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/clean
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/preinstall
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/preinstall
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 blas/CMakeFiles/eigen_blas.dir/rule:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/eigen_blas.dir/rule
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/eigen_blas.dir/rule
 .PHONY : blas/CMakeFiles/eigen_blas.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ eigen_blas: blas/CMakeFiles/eigen_blas.dir/rule
 
 # fast build rule for target.
 eigen_blas/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/build
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/build
 .PHONY : eigen_blas/fast
 
 # Convenience name for target.
 blas/CMakeFiles/eigen_blas_static.dir/rule:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/eigen_blas_static.dir/rule
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/eigen_blas_static.dir/rule
 .PHONY : blas/CMakeFiles/eigen_blas_static.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ eigen_blas_static: blas/CMakeFiles/eigen_blas_static.dir/rule
 
 # fast build rule for target.
 eigen_blas_static/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/build
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/build
 .PHONY : eigen_blas_static/fast
 
 # Convenience name for target.
 blas/CMakeFiles/blas.dir/rule:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/blas.dir/rule
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 blas/CMakeFiles/blas.dir/rule
 .PHONY : blas/CMakeFiles/blas.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ blas: blas/CMakeFiles/blas.dir/rule
 
 # fast build rule for target.
 blas/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/blas.dir/build.make blas/CMakeFiles/blas.dir/build
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/blas.dir/build.make blas/CMakeFiles/blas.dir/build
 .PHONY : blas/fast
 
 complex_double.o: complex_double.cpp.o
@@ -218,8 +218,8 @@ complex_double.o: complex_double.cpp.o
 
 # target to build an object file
 complex_double.cpp.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.o
 .PHONY : complex_double.cpp.o
 
 complex_double.i: complex_double.cpp.i
@@ -228,8 +228,8 @@ complex_double.i: complex_double.cpp.i
 
 # target to preprocess a source file
 complex_double.cpp.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.i
 .PHONY : complex_double.cpp.i
 
 complex_double.s: complex_double.cpp.s
@@ -238,8 +238,8 @@ complex_double.s: complex_double.cpp.s
 
 # target to generate assembly for a file
 complex_double.cpp.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_double.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_double.cpp.s
 .PHONY : complex_double.cpp.s
 
 complex_single.o: complex_single.cpp.o
@@ -248,8 +248,8 @@ complex_single.o: complex_single.cpp.o
 
 # target to build an object file
 complex_single.cpp.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.o
 .PHONY : complex_single.cpp.o
 
 complex_single.i: complex_single.cpp.i
@@ -258,8 +258,8 @@ complex_single.i: complex_single.cpp.i
 
 # target to preprocess a source file
 complex_single.cpp.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.i
 .PHONY : complex_single.cpp.i
 
 complex_single.s: complex_single.cpp.s
@@ -268,8 +268,8 @@ complex_single.s: complex_single.cpp.s
 
 # target to generate assembly for a file
 complex_single.cpp.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/complex_single.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/complex_single.cpp.s
 .PHONY : complex_single.cpp.s
 
 double.o: double.cpp.o
@@ -278,8 +278,8 @@ double.o: double.cpp.o
 
 # target to build an object file
 double.cpp.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.o
 .PHONY : double.cpp.o
 
 double.i: double.cpp.i
@@ -288,8 +288,8 @@ double.i: double.cpp.i
 
 # target to preprocess a source file
 double.cpp.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.i
 .PHONY : double.cpp.i
 
 double.s: double.cpp.s
@@ -298,8 +298,8 @@ double.s: double.cpp.s
 
 # target to generate assembly for a file
 double.cpp.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/double.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/double.cpp.s
 .PHONY : double.cpp.s
 
 f2c/chbmv.o: f2c/chbmv.c.o
@@ -308,8 +308,8 @@ f2c/chbmv.o: f2c/chbmv.c.o
 
 # target to build an object file
 f2c/chbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.o
 .PHONY : f2c/chbmv.c.o
 
 f2c/chbmv.i: f2c/chbmv.c.i
@@ -318,8 +318,8 @@ f2c/chbmv.i: f2c/chbmv.c.i
 
 # target to preprocess a source file
 f2c/chbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.i
 .PHONY : f2c/chbmv.c.i
 
 f2c/chbmv.s: f2c/chbmv.c.s
@@ -328,8 +328,8 @@ f2c/chbmv.s: f2c/chbmv.c.s
 
 # target to generate assembly for a file
 f2c/chbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chbmv.c.s
 .PHONY : f2c/chbmv.c.s
 
 f2c/chpmv.o: f2c/chpmv.c.o
@@ -338,8 +338,8 @@ f2c/chpmv.o: f2c/chpmv.c.o
 
 # target to build an object file
 f2c/chpmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.o
 .PHONY : f2c/chpmv.c.o
 
 f2c/chpmv.i: f2c/chpmv.c.i
@@ -348,8 +348,8 @@ f2c/chpmv.i: f2c/chpmv.c.i
 
 # target to preprocess a source file
 f2c/chpmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.i
 .PHONY : f2c/chpmv.c.i
 
 f2c/chpmv.s: f2c/chpmv.c.s
@@ -358,8 +358,8 @@ f2c/chpmv.s: f2c/chpmv.c.s
 
 # target to generate assembly for a file
 f2c/chpmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.s
 .PHONY : f2c/chpmv.c.s
 
 f2c/ctbmv.o: f2c/ctbmv.c.o
@@ -368,8 +368,8 @@ f2c/ctbmv.o: f2c/ctbmv.c.o
 
 # target to build an object file
 f2c/ctbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.o
 .PHONY : f2c/ctbmv.c.o
 
 f2c/ctbmv.i: f2c/ctbmv.c.i
@@ -378,8 +378,8 @@ f2c/ctbmv.i: f2c/ctbmv.c.i
 
 # target to preprocess a source file
 f2c/ctbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.i
 .PHONY : f2c/ctbmv.c.i
 
 f2c/ctbmv.s: f2c/ctbmv.c.s
@@ -388,8 +388,8 @@ f2c/ctbmv.s: f2c/ctbmv.c.s
 
 # target to generate assembly for a file
 f2c/ctbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.s
 .PHONY : f2c/ctbmv.c.s
 
 f2c/d_cnjg.o: f2c/d_cnjg.c.o
@@ -398,8 +398,8 @@ f2c/d_cnjg.o: f2c/d_cnjg.c.o
 
 # target to build an object file
 f2c/d_cnjg.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.o
 .PHONY : f2c/d_cnjg.c.o
 
 f2c/d_cnjg.i: f2c/d_cnjg.c.i
@@ -408,8 +408,8 @@ f2c/d_cnjg.i: f2c/d_cnjg.c.i
 
 # target to preprocess a source file
 f2c/d_cnjg.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.i
 .PHONY : f2c/d_cnjg.c.i
 
 f2c/d_cnjg.s: f2c/d_cnjg.c.s
@@ -418,8 +418,8 @@ f2c/d_cnjg.s: f2c/d_cnjg.c.s
 
 # target to generate assembly for a file
 f2c/d_cnjg.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.s
 .PHONY : f2c/d_cnjg.c.s
 
 f2c/drotm.o: f2c/drotm.c.o
@@ -428,8 +428,8 @@ f2c/drotm.o: f2c/drotm.c.o
 
 # target to build an object file
 f2c/drotm.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.o
 .PHONY : f2c/drotm.c.o
 
 f2c/drotm.i: f2c/drotm.c.i
@@ -438,8 +438,8 @@ f2c/drotm.i: f2c/drotm.c.i
 
 # target to preprocess a source file
 f2c/drotm.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.i
 .PHONY : f2c/drotm.c.i
 
 f2c/drotm.s: f2c/drotm.c.s
@@ -448,8 +448,8 @@ f2c/drotm.s: f2c/drotm.c.s
 
 # target to generate assembly for a file
 f2c/drotm.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotm.c.s
 .PHONY : f2c/drotm.c.s
 
 f2c/drotmg.o: f2c/drotmg.c.o
@@ -458,8 +458,8 @@ f2c/drotmg.o: f2c/drotmg.c.o
 
 # target to build an object file
 f2c/drotmg.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.o
 .PHONY : f2c/drotmg.c.o
 
 f2c/drotmg.i: f2c/drotmg.c.i
@@ -468,8 +468,8 @@ f2c/drotmg.i: f2c/drotmg.c.i
 
 # target to preprocess a source file
 f2c/drotmg.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.i
 .PHONY : f2c/drotmg.c.i
 
 f2c/drotmg.s: f2c/drotmg.c.s
@@ -478,8 +478,8 @@ f2c/drotmg.s: f2c/drotmg.c.s
 
 # target to generate assembly for a file
 f2c/drotmg.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/drotmg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/drotmg.c.s
 .PHONY : f2c/drotmg.c.s
 
 f2c/dsbmv.o: f2c/dsbmv.c.o
@@ -488,8 +488,8 @@ f2c/dsbmv.o: f2c/dsbmv.c.o
 
 # target to build an object file
 f2c/dsbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.o
 .PHONY : f2c/dsbmv.c.o
 
 f2c/dsbmv.i: f2c/dsbmv.c.i
@@ -498,8 +498,8 @@ f2c/dsbmv.i: f2c/dsbmv.c.i
 
 # target to preprocess a source file
 f2c/dsbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.i
 .PHONY : f2c/dsbmv.c.i
 
 f2c/dsbmv.s: f2c/dsbmv.c.s
@@ -508,8 +508,8 @@ f2c/dsbmv.s: f2c/dsbmv.c.s
 
 # target to generate assembly for a file
 f2c/dsbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dsbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dsbmv.c.s
 .PHONY : f2c/dsbmv.c.s
 
 f2c/dspmv.o: f2c/dspmv.c.o
@@ -518,8 +518,8 @@ f2c/dspmv.o: f2c/dspmv.c.o
 
 # target to build an object file
 f2c/dspmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.o
 .PHONY : f2c/dspmv.c.o
 
 f2c/dspmv.i: f2c/dspmv.c.i
@@ -528,8 +528,8 @@ f2c/dspmv.i: f2c/dspmv.c.i
 
 # target to preprocess a source file
 f2c/dspmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.i
 .PHONY : f2c/dspmv.c.i
 
 f2c/dspmv.s: f2c/dspmv.c.s
@@ -538,8 +538,8 @@ f2c/dspmv.s: f2c/dspmv.c.s
 
 # target to generate assembly for a file
 f2c/dspmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dspmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dspmv.c.s
 .PHONY : f2c/dspmv.c.s
 
 f2c/dtbmv.o: f2c/dtbmv.c.o
@@ -548,8 +548,8 @@ f2c/dtbmv.o: f2c/dtbmv.c.o
 
 # target to build an object file
 f2c/dtbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.o
 .PHONY : f2c/dtbmv.c.o
 
 f2c/dtbmv.i: f2c/dtbmv.c.i
@@ -558,8 +558,8 @@ f2c/dtbmv.i: f2c/dtbmv.c.i
 
 # target to preprocess a source file
 f2c/dtbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.i
 .PHONY : f2c/dtbmv.c.i
 
 f2c/dtbmv.s: f2c/dtbmv.c.s
@@ -568,8 +568,8 @@ f2c/dtbmv.s: f2c/dtbmv.c.s
 
 # target to generate assembly for a file
 f2c/dtbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/dtbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/dtbmv.c.s
 .PHONY : f2c/dtbmv.c.s
 
 f2c/lsame.o: f2c/lsame.c.o
@@ -578,8 +578,8 @@ f2c/lsame.o: f2c/lsame.c.o
 
 # target to build an object file
 f2c/lsame.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.o
 .PHONY : f2c/lsame.c.o
 
 f2c/lsame.i: f2c/lsame.c.i
@@ -588,8 +588,8 @@ f2c/lsame.i: f2c/lsame.c.i
 
 # target to preprocess a source file
 f2c/lsame.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.i
 .PHONY : f2c/lsame.c.i
 
 f2c/lsame.s: f2c/lsame.c.s
@@ -598,8 +598,8 @@ f2c/lsame.s: f2c/lsame.c.s
 
 # target to generate assembly for a file
 f2c/lsame.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/lsame.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/lsame.c.s
 .PHONY : f2c/lsame.c.s
 
 f2c/r_cnjg.o: f2c/r_cnjg.c.o
@@ -608,8 +608,8 @@ f2c/r_cnjg.o: f2c/r_cnjg.c.o
 
 # target to build an object file
 f2c/r_cnjg.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.o
 .PHONY : f2c/r_cnjg.c.o
 
 f2c/r_cnjg.i: f2c/r_cnjg.c.i
@@ -618,8 +618,8 @@ f2c/r_cnjg.i: f2c/r_cnjg.c.i
 
 # target to preprocess a source file
 f2c/r_cnjg.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.i
 .PHONY : f2c/r_cnjg.c.i
 
 f2c/r_cnjg.s: f2c/r_cnjg.c.s
@@ -628,8 +628,8 @@ f2c/r_cnjg.s: f2c/r_cnjg.c.s
 
 # target to generate assembly for a file
 f2c/r_cnjg.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/r_cnjg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.s
 .PHONY : f2c/r_cnjg.c.s
 
 f2c/srotm.o: f2c/srotm.c.o
@@ -638,8 +638,8 @@ f2c/srotm.o: f2c/srotm.c.o
 
 # target to build an object file
 f2c/srotm.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.o
 .PHONY : f2c/srotm.c.o
 
 f2c/srotm.i: f2c/srotm.c.i
@@ -648,8 +648,8 @@ f2c/srotm.i: f2c/srotm.c.i
 
 # target to preprocess a source file
 f2c/srotm.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.i
 .PHONY : f2c/srotm.c.i
 
 f2c/srotm.s: f2c/srotm.c.s
@@ -658,8 +658,8 @@ f2c/srotm.s: f2c/srotm.c.s
 
 # target to generate assembly for a file
 f2c/srotm.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotm.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotm.c.s
 .PHONY : f2c/srotm.c.s
 
 f2c/srotmg.o: f2c/srotmg.c.o
@@ -668,8 +668,8 @@ f2c/srotmg.o: f2c/srotmg.c.o
 
 # target to build an object file
 f2c/srotmg.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.o
 .PHONY : f2c/srotmg.c.o
 
 f2c/srotmg.i: f2c/srotmg.c.i
@@ -678,8 +678,8 @@ f2c/srotmg.i: f2c/srotmg.c.i
 
 # target to preprocess a source file
 f2c/srotmg.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.i
 .PHONY : f2c/srotmg.c.i
 
 f2c/srotmg.s: f2c/srotmg.c.s
@@ -688,8 +688,8 @@ f2c/srotmg.s: f2c/srotmg.c.s
 
 # target to generate assembly for a file
 f2c/srotmg.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/srotmg.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/srotmg.c.s
 .PHONY : f2c/srotmg.c.s
 
 f2c/ssbmv.o: f2c/ssbmv.c.o
@@ -698,8 +698,8 @@ f2c/ssbmv.o: f2c/ssbmv.c.o
 
 # target to build an object file
 f2c/ssbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.o
 .PHONY : f2c/ssbmv.c.o
 
 f2c/ssbmv.i: f2c/ssbmv.c.i
@@ -708,8 +708,8 @@ f2c/ssbmv.i: f2c/ssbmv.c.i
 
 # target to preprocess a source file
 f2c/ssbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.i
 .PHONY : f2c/ssbmv.c.i
 
 f2c/ssbmv.s: f2c/ssbmv.c.s
@@ -718,8 +718,8 @@ f2c/ssbmv.s: f2c/ssbmv.c.s
 
 # target to generate assembly for a file
 f2c/ssbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ssbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ssbmv.c.s
 .PHONY : f2c/ssbmv.c.s
 
 f2c/sspmv.o: f2c/sspmv.c.o
@@ -728,8 +728,8 @@ f2c/sspmv.o: f2c/sspmv.c.o
 
 # target to build an object file
 f2c/sspmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.o
 .PHONY : f2c/sspmv.c.o
 
 f2c/sspmv.i: f2c/sspmv.c.i
@@ -738,8 +738,8 @@ f2c/sspmv.i: f2c/sspmv.c.i
 
 # target to preprocess a source file
 f2c/sspmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.i
 .PHONY : f2c/sspmv.c.i
 
 f2c/sspmv.s: f2c/sspmv.c.s
@@ -748,8 +748,8 @@ f2c/sspmv.s: f2c/sspmv.c.s
 
 # target to generate assembly for a file
 f2c/sspmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/sspmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/sspmv.c.s
 .PHONY : f2c/sspmv.c.s
 
 f2c/stbmv.o: f2c/stbmv.c.o
@@ -758,8 +758,8 @@ f2c/stbmv.o: f2c/stbmv.c.o
 
 # target to build an object file
 f2c/stbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.o
 .PHONY : f2c/stbmv.c.o
 
 f2c/stbmv.i: f2c/stbmv.c.i
@@ -768,8 +768,8 @@ f2c/stbmv.i: f2c/stbmv.c.i
 
 # target to preprocess a source file
 f2c/stbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.i
 .PHONY : f2c/stbmv.c.i
 
 f2c/stbmv.s: f2c/stbmv.c.s
@@ -778,8 +778,8 @@ f2c/stbmv.s: f2c/stbmv.c.s
 
 # target to generate assembly for a file
 f2c/stbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/stbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/stbmv.c.s
 .PHONY : f2c/stbmv.c.s
 
 f2c/zhbmv.o: f2c/zhbmv.c.o
@@ -788,8 +788,8 @@ f2c/zhbmv.o: f2c/zhbmv.c.o
 
 # target to build an object file
 f2c/zhbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.o
 .PHONY : f2c/zhbmv.c.o
 
 f2c/zhbmv.i: f2c/zhbmv.c.i
@@ -798,8 +798,8 @@ f2c/zhbmv.i: f2c/zhbmv.c.i
 
 # target to preprocess a source file
 f2c/zhbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.i
 .PHONY : f2c/zhbmv.c.i
 
 f2c/zhbmv.s: f2c/zhbmv.c.s
@@ -808,8 +808,8 @@ f2c/zhbmv.s: f2c/zhbmv.c.s
 
 # target to generate assembly for a file
 f2c/zhbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhbmv.c.s
 .PHONY : f2c/zhbmv.c.s
 
 f2c/zhpmv.o: f2c/zhpmv.c.o
@@ -818,8 +818,8 @@ f2c/zhpmv.o: f2c/zhpmv.c.o
 
 # target to build an object file
 f2c/zhpmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.o
 .PHONY : f2c/zhpmv.c.o
 
 f2c/zhpmv.i: f2c/zhpmv.c.i
@@ -828,8 +828,8 @@ f2c/zhpmv.i: f2c/zhpmv.c.i
 
 # target to preprocess a source file
 f2c/zhpmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.i
 .PHONY : f2c/zhpmv.c.i
 
 f2c/zhpmv.s: f2c/zhpmv.c.s
@@ -838,8 +838,8 @@ f2c/zhpmv.s: f2c/zhpmv.c.s
 
 # target to generate assembly for a file
 f2c/zhpmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/zhpmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/zhpmv.c.s
 .PHONY : f2c/zhpmv.c.s
 
 f2c/ztbmv.o: f2c/ztbmv.c.o
@@ -848,8 +848,8 @@ f2c/ztbmv.o: f2c/ztbmv.c.o
 
 # target to build an object file
 f2c/ztbmv.c.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.o
 .PHONY : f2c/ztbmv.c.o
 
 f2c/ztbmv.i: f2c/ztbmv.c.i
@@ -858,8 +858,8 @@ f2c/ztbmv.i: f2c/ztbmv.c.i
 
 # target to preprocess a source file
 f2c/ztbmv.c.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.i
 .PHONY : f2c/ztbmv.c.i
 
 f2c/ztbmv.s: f2c/ztbmv.c.s
@@ -868,8 +868,8 @@ f2c/ztbmv.s: f2c/ztbmv.c.s
 
 # target to generate assembly for a file
 f2c/ztbmv.c.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/ztbmv.c.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.s
 .PHONY : f2c/ztbmv.c.s
 
 fortran/complexdots.o: fortran/complexdots.f.o
@@ -878,8 +878,8 @@ fortran/complexdots.o: fortran/complexdots.f.o
 
 # target to build an object file
 fortran/complexdots.f.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o
 .PHONY : fortran/complexdots.f.o
 
 fortran/complexdots.i: fortran/complexdots.f.i
@@ -888,8 +888,8 @@ fortran/complexdots.i: fortran/complexdots.f.i
 
 # target to preprocess a source file
 fortran/complexdots.f.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i
 .PHONY : fortran/complexdots.f.i
 
 fortran/complexdots.s: fortran/complexdots.f.s
@@ -898,8 +898,8 @@ fortran/complexdots.s: fortran/complexdots.f.s
 
 # target to generate assembly for a file
 fortran/complexdots.f.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s
 .PHONY : fortran/complexdots.f.s
 
 single.o: single.cpp.o
@@ -908,8 +908,8 @@ single.o: single.cpp.o
 
 # target to build an object file
 single.cpp.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.o
 .PHONY : single.cpp.o
 
 single.i: single.cpp.i
@@ -918,8 +918,8 @@ single.i: single.cpp.i
 
 # target to preprocess a source file
 single.cpp.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.i
 .PHONY : single.cpp.i
 
 single.s: single.cpp.s
@@ -928,8 +928,8 @@ single.s: single.cpp.s
 
 # target to generate assembly for a file
 single.cpp.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/single.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/single.cpp.s
 .PHONY : single.cpp.s
 
 xerbla.o: xerbla.cpp.o
@@ -938,8 +938,8 @@ xerbla.o: xerbla.cpp.o
 
 # target to build an object file
 xerbla.cpp.o:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.o
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.o
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.o
 .PHONY : xerbla.cpp.o
 
 xerbla.i: xerbla.cpp.i
@@ -948,8 +948,8 @@ xerbla.i: xerbla.cpp.i
 
 # target to preprocess a source file
 xerbla.cpp.i:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.i
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.i
 .PHONY : xerbla.cpp.i
 
 xerbla.s: xerbla.cpp.s
@@ -958,8 +958,8 @@ xerbla.s: xerbla.cpp.s
 
 # target to generate assembly for a file
 xerbla.cpp.s:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.s
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/xerbla.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/xerbla.cpp.s
 .PHONY : xerbla.cpp.s
 
 # Help Target
@@ -1064,6 +1064,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

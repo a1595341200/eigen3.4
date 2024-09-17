@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for unsupported_examples.
 
@@ -63,10 +63,10 @@ unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/build: unsupported_
 .PHONY : unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/build
 
 unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/unsupported_examples.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/unsupported_examples.dir/cmake_clean.cmake
 .PHONY : unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/clean
 
 unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/unsupported/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/unsupported/doc/examples /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unsupported/doc/examples/CMakeFiles/unsupported_examples.dir/depend
 

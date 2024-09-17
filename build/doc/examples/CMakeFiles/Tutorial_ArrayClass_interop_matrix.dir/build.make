@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/depend.make
@@ -59,16 +59,16 @@ include doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/flags.mak
 
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o: doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/flags.make
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o: ../doc/examples/Tutorial_ArrayClass_interop_matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o -c /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp
 
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp > CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp > CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.i
 
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp -o CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp -o CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.s
 
 # Object files for target Tutorial_ArrayClass_interop_matrix
 Tutorial_ArrayClass_interop_matrix_OBJECTS = \
@@ -80,9 +80,9 @@ Tutorial_ArrayClass_interop_matrix_EXTERNAL_OBJECTS =
 doc/examples/Tutorial_ArrayClass_interop_matrix: doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o
 doc/examples/Tutorial_ArrayClass_interop_matrix: doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/build.make
 doc/examples/Tutorial_ArrayClass_interop_matrix: doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tutorial_ArrayClass_interop_matrix"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && ./Tutorial_ArrayClass_interop_matrix >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/Tutorial_ArrayClass_interop_matrix.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tutorial_ArrayClass_interop_matrix"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && ./Tutorial_ArrayClass_interop_matrix >/root/cplusplus/submodule/eigen3.4/build/doc/examples/Tutorial_ArrayClass_interop_matrix.out
 
 # Rule to build all files generated by this target.
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/build: doc/examples/Tutorial_ArrayClass_interop_matrix
@@ -90,10 +90,10 @@ doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/build: doc/exampl
 .PHONY : doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/build
 
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/cmake_clean.cmake
 .PHONY : doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/clean
 
 doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/examples /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/examples /root/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/examples/CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles /home/user/work/cplusplus/submodule/eigen3.4/build/demos/CMakeFiles/progress.marks
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles 0
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/cplusplus/submodule/eigen3.4/build/CMakeFiles /root/cplusplus/submodule/eigen3.4/build/demos/CMakeFiles/progress.marks
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/cplusplus/submodule/eigen3.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/clean
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/preinstall
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/preinstall
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 demos/CMakeFiles/demos.dir/rule:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demos.dir/rule
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f CMakeFiles/Makefile2 demos/CMakeFiles/demos.dir/rule
 .PHONY : demos/CMakeFiles/demos.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ demos: demos/CMakeFiles/demos.dir/rule
 
 # fast build rule for target.
 demos/fast:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(MAKE) -f demos/CMakeFiles/demos.dir/build.make demos/CMakeFiles/demos.dir/build
+	cd /root/cplusplus/submodule/eigen3.4/build && $(MAKE) -f demos/CMakeFiles/demos.dir/build.make demos/CMakeFiles/demos.dir/build
 .PHONY : demos/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

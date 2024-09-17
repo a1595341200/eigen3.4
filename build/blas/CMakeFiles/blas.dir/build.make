@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for blas.
 
@@ -63,10 +63,10 @@ blas/CMakeFiles/blas.dir/build: blas
 .PHONY : blas/CMakeFiles/blas.dir/build
 
 blas/CMakeFiles/blas.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/blas && $(CMAKE_COMMAND) -P CMakeFiles/blas.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/blas && $(CMAKE_COMMAND) -P CMakeFiles/blas.dir/cmake_clean.cmake
 .PHONY : blas/CMakeFiles/blas.dir/clean
 
 blas/CMakeFiles/blas.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/blas /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/blas /home/user/work/cplusplus/submodule/eigen3.4/build/blas/CMakeFiles/blas.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/blas /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/blas /root/cplusplus/submodule/eigen3.4/build/blas/CMakeFiles/blas.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blas/CMakeFiles/blas.dir/depend
 

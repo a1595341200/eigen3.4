@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/user/work/cplusplus/submodule/eigen3.4
-BuildDirectory: /home/user/work/cplusplus/submodule/eigen3.4/build
+SourceDirectory: /root/cplusplus/submodule/eigen3.4
+BuildDirectory: /root/cplusplus/submodule/eigen3.4/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: ubuntu
+Site: localhost
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: linux-5.15.0-105-generic-_-9.4.0-sse2-64bit
+BuildName: linux-4.19.113-perf-g1a19ce2a6a79-_-9.4.0-sse2-64bit
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://my.cdash.org/submit.php?project=Eigen
 NightlyStartTime: 00:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/user/work/cplusplus/submodule/eigen3.4"
+ConfigureCommand: "/usr/bin/cmake" "/root/cplusplus/submodule/eigen3.4"
 MakeCommand: /usr/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" --  
 DefaultCTestConfigurationType: Release
 

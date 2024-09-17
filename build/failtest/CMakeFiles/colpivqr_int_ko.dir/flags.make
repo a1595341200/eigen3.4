@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subs
 
 CXX_DEFINES = -DEIGEN_SHOULD_FAIL_TO_BUILD
 
-CXX_INCLUDES = -I/home/user/work/cplusplus/submodule/eigen3.4 
+CXX_INCLUDES = -I/root/cplusplus/submodule/eigen3.4 
 

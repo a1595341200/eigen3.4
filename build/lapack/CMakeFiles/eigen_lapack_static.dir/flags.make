@@ -7,11 +7,11 @@ CXX_FLAGS =  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subs
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/work/cplusplus/submodule/eigen3.4 -I/home/user/work/cplusplus/submodule/eigen3.4/lapack/../blas 
+CXX_INCLUDES = -I/root/cplusplus/submodule/eigen3.4 -I/root/cplusplus/submodule/eigen3.4/lapack/../blas 
 
 Fortran_FLAGS = -O3 -DNDEBUG -O3  
 
 Fortran_DEFINES = 
 
-Fortran_INCLUDES = -I/home/user/work/cplusplus/submodule/eigen3.4 -I/home/user/work/cplusplus/submodule/eigen3.4/lapack/../blas 
+Fortran_INCLUDES = -I/root/cplusplus/submodule/eigen3.4 -I/root/cplusplus/submodule/eigen3.4/lapack/../blas 
 

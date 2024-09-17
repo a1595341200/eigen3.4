@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/depend.make
@@ -60,16 +60,16 @@ include doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTem
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o: doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/flags.make
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o: doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o: ../doc/snippets/Tutorial_AdvancedInitialization_CommaTemporary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o -c /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp
 
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp > CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp > CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.i
 
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp -o CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp -o CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.s
 
 # Object files for target compile_Tutorial_AdvancedInitialization_CommaTemporary
 compile_Tutorial_AdvancedInitialization_CommaTemporary_OBJECTS = \
@@ -81,9 +81,9 @@ compile_Tutorial_AdvancedInitialization_CommaTemporary_EXTERNAL_OBJECTS =
 doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary: doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/compile_Tutorial_AdvancedInitialization_CommaTemporary.cpp.o
 doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary: doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/build.make
 doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary: doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_Tutorial_AdvancedInitialization_CommaTemporary"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_Tutorial_AdvancedInitialization_CommaTemporary >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/Tutorial_AdvancedInitialization_CommaTemporary.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_Tutorial_AdvancedInitialization_CommaTemporary"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_Tutorial_AdvancedInitialization_CommaTemporary >/root/cplusplus/submodule/eigen3.4/build/doc/snippets/Tutorial_AdvancedInitialization_CommaTemporary.out
 
 # Rule to build all files generated by this target.
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/build: doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary
@@ -91,10 +91,10 @@ doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.d
 .PHONY : doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/build
 
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/cmake_clean.cmake
 .PHONY : doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/clean
 
 doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/snippets /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/snippets /root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/snippets/CMakeFiles/compile_Tutorial_AdvancedInitialization_CommaTemporary.dir/depend
 

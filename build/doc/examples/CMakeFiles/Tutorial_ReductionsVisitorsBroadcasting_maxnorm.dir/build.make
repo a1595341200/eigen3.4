@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/depend.make
@@ -59,16 +59,16 @@ include doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.
 
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o: doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/flags.make
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o: ../doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o -c /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
 
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp > CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp > CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.i
 
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp -o CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp -o CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.s
 
 # Object files for target Tutorial_ReductionsVisitorsBroadcasting_maxnorm
 Tutorial_ReductionsVisitorsBroadcasting_maxnorm_OBJECTS = \
@@ -80,9 +80,9 @@ Tutorial_ReductionsVisitorsBroadcasting_maxnorm_EXTERNAL_OBJECTS =
 doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm: doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o
 doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm: doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/build.make
 doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm: doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tutorial_ReductionsVisitorsBroadcasting_maxnorm"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && ./Tutorial_ReductionsVisitorsBroadcasting_maxnorm >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tutorial_ReductionsVisitorsBroadcasting_maxnorm"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && ./Tutorial_ReductionsVisitorsBroadcasting_maxnorm >/root/cplusplus/submodule/eigen3.4/build/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.out
 
 # Rule to build all files generated by this target.
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/build: doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm
@@ -90,10 +90,10 @@ doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/buil
 .PHONY : doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/build
 
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/cmake_clean.cmake
 .PHONY : doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/clean
 
 doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/examples /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/examples /root/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/examples/CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/depend
 

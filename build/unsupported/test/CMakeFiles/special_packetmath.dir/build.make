@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for special_packetmath.
 
@@ -63,10 +63,10 @@ unsupported/test/CMakeFiles/special_packetmath.dir/build: special_packetmath
 .PHONY : unsupported/test/CMakeFiles/special_packetmath.dir/build
 
 unsupported/test/CMakeFiles/special_packetmath.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/test && $(CMAKE_COMMAND) -P CMakeFiles/special_packetmath.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/unsupported/test && $(CMAKE_COMMAND) -P CMakeFiles/special_packetmath.dir/cmake_clean.cmake
 .PHONY : unsupported/test/CMakeFiles/special_packetmath.dir/clean
 
 unsupported/test/CMakeFiles/special_packetmath.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/unsupported/test /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/test /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/test/CMakeFiles/special_packetmath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/unsupported/test /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/unsupported/test /root/cplusplus/submodule/eigen3.4/build/unsupported/test/CMakeFiles/special_packetmath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unsupported/test/CMakeFiles/special_packetmath.dir/depend
 

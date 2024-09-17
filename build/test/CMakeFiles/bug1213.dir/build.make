@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/bug1213.dir/depend.make
@@ -59,29 +59,29 @@ include test/CMakeFiles/bug1213.dir/flags.make
 
 test/CMakeFiles/bug1213.dir/bug1213.cpp.o: test/CMakeFiles/bug1213.dir/flags.make
 test/CMakeFiles/bug1213.dir/bug1213.cpp.o: ../test/bug1213.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/bug1213.dir/bug1213.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug1213.dir/bug1213.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/bug1213.dir/bug1213.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug1213.dir/bug1213.cpp.o -c /root/cplusplus/submodule/eigen3.4/test/bug1213.cpp
 
 test/CMakeFiles/bug1213.dir/bug1213.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug1213.dir/bug1213.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213.cpp > CMakeFiles/bug1213.dir/bug1213.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/test/bug1213.cpp > CMakeFiles/bug1213.dir/bug1213.cpp.i
 
 test/CMakeFiles/bug1213.dir/bug1213.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug1213.dir/bug1213.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213.cpp -o CMakeFiles/bug1213.dir/bug1213.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/test/bug1213.cpp -o CMakeFiles/bug1213.dir/bug1213.cpp.s
 
 test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o: test/CMakeFiles/bug1213.dir/flags.make
 test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o: ../test/bug1213_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug1213.dir/bug1213_main.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bug1213.dir/bug1213_main.cpp.o -c /root/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp
 
 test/CMakeFiles/bug1213.dir/bug1213_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bug1213.dir/bug1213_main.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp > CMakeFiles/bug1213.dir/bug1213_main.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp > CMakeFiles/bug1213.dir/bug1213_main.cpp.i
 
 test/CMakeFiles/bug1213.dir/bug1213_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bug1213.dir/bug1213_main.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp -o CMakeFiles/bug1213.dir/bug1213_main.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp -o CMakeFiles/bug1213.dir/bug1213_main.cpp.s
 
 # Object files for target bug1213
 bug1213_OBJECTS = \
@@ -95,8 +95,8 @@ test/bug1213: test/CMakeFiles/bug1213.dir/bug1213.cpp.o
 test/bug1213: test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o
 test/bug1213: test/CMakeFiles/bug1213.dir/build.make
 test/bug1213: test/CMakeFiles/bug1213.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bug1213"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bug1213.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bug1213"
+	cd /root/cplusplus/submodule/eigen3.4/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bug1213.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/bug1213.dir/build: test/bug1213
@@ -104,10 +104,10 @@ test/CMakeFiles/bug1213.dir/build: test/bug1213
 .PHONY : test/CMakeFiles/bug1213.dir/build
 
 test/CMakeFiles/bug1213.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bug1213.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bug1213.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/bug1213.dir/clean
 
 test/CMakeFiles/bug1213.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/test /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/test /home/user/work/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/test /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/test /root/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/bug1213.dir/depend
 

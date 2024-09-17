@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for doc-unsupported-prerequisites.
 
@@ -54,11 +54,11 @@ CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
 include doc/CMakeFiles/doc-unsupported-prerequisites.dir/progress.make
 
 doc/CMakeFiles/doc-unsupported-prerequisites:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E make_directory /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/unsupported
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /home/user/work/cplusplus/submodule/eigen3.4/doc/eigen_navtree_hacks.js /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /home/user/work/cplusplus/submodule/eigen3.4/doc/Eigen_Silly_Professor_64x64.png /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /home/user/work/cplusplus/submodule/eigen3.4/doc/ftv2pnode.png /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /home/user/work/cplusplus/submodule/eigen3.4/doc/ftv2node.png /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E make_directory /root/cplusplus/submodule/eigen3.4/build/doc/html/unsupported
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /root/cplusplus/submodule/eigen3.4/doc/eigen_navtree_hacks.js /root/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /root/cplusplus/submodule/eigen3.4/doc/Eigen_Silly_Professor_64x64.png /root/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /root/cplusplus/submodule/eigen3.4/doc/ftv2pnode.png /root/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /root/cplusplus/submodule/eigen3.4/doc/ftv2node.png /root/cplusplus/submodule/eigen3.4/build/doc/html/unsupported/
 
 doc-unsupported-prerequisites: doc/CMakeFiles/doc-unsupported-prerequisites
 doc-unsupported-prerequisites: doc/CMakeFiles/doc-unsupported-prerequisites.dir/build.make
@@ -71,10 +71,10 @@ doc/CMakeFiles/doc-unsupported-prerequisites.dir/build: doc-unsupported-prerequi
 .PHONY : doc/CMakeFiles/doc-unsupported-prerequisites.dir/build
 
 doc/CMakeFiles/doc-unsupported-prerequisites.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc-unsupported-prerequisites.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc-unsupported-prerequisites.dir/cmake_clean.cmake
 .PHONY : doc/CMakeFiles/doc-unsupported-prerequisites.dir/clean
 
 doc/CMakeFiles/doc-unsupported-prerequisites.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc /home/user/work/cplusplus/submodule/eigen3.4/build/doc/CMakeFiles/doc-unsupported-prerequisites.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc /root/cplusplus/submodule/eigen3.4/build/doc/CMakeFiles/doc-unsupported-prerequisites.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/CMakeFiles/doc-unsupported-prerequisites.dir/depend
 

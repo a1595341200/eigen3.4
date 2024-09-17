@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/snippets/CMakeFiles/compile_Cwise_tan.dir/depend.make
@@ -60,16 +60,16 @@ include doc/snippets/CMakeFiles/compile_Cwise_tan.dir/flags.make
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o: doc/snippets/CMakeFiles/compile_Cwise_tan.dir/flags.make
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o: doc/snippets/compile_Cwise_tan.cpp
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o: ../doc/snippets/Cwise_tan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o -c /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp
 
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp > CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp > CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.i
 
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp -o CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_Cwise_tan.cpp -o CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.s
 
 # Object files for target compile_Cwise_tan
 compile_Cwise_tan_OBJECTS = \
@@ -81,9 +81,9 @@ compile_Cwise_tan_EXTERNAL_OBJECTS =
 doc/snippets/compile_Cwise_tan: doc/snippets/CMakeFiles/compile_Cwise_tan.dir/compile_Cwise_tan.cpp.o
 doc/snippets/compile_Cwise_tan: doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build.make
 doc/snippets/compile_Cwise_tan: doc/snippets/CMakeFiles/compile_Cwise_tan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_Cwise_tan"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_Cwise_tan.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_Cwise_tan >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/Cwise_tan.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_Cwise_tan"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_Cwise_tan.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_Cwise_tan >/root/cplusplus/submodule/eigen3.4/build/doc/snippets/Cwise_tan.out
 
 # Rule to build all files generated by this target.
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build: doc/snippets/compile_Cwise_tan
@@ -91,10 +91,10 @@ doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build: doc/snippets/compile_Cwise_
 .PHONY : doc/snippets/CMakeFiles/compile_Cwise_tan.dir/build
 
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_Cwise_tan.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_Cwise_tan.dir/cmake_clean.cmake
 .PHONY : doc/snippets/CMakeFiles/compile_Cwise_tan.dir/clean
 
 doc/snippets/CMakeFiles/compile_Cwise_tan.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/snippets /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/snippets /root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_Cwise_tan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/snippets/CMakeFiles/compile_Cwise_tan.dir/depend
 

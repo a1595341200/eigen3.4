@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for doc.
 
@@ -54,14 +54,14 @@ CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
 include doc/CMakeFiles/doc.dir/progress.make
 
 doc/CMakeFiles/doc:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && doxygen
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && doxygen Doxyfile-unsupported
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/group__TopicUnalignedArrayAssert.html /home/user/work/cplusplus/submodule/eigen3.4/build/doc/html/TopicUnalignedArrayAssert.html
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename html eigen-doc
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E remove eigen-doc/eigen-doc.tgz eigen-doc/unsupported/_formulas.log eigen-doc/_formulas.log
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E tar cfz eigen-doc.tgz eigen-doc
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename eigen-doc.tgz eigen-doc/eigen-doc.tgz
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename eigen-doc html
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && doxygen
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && doxygen Doxyfile-unsupported
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E copy /root/cplusplus/submodule/eigen3.4/build/doc/html/group__TopicUnalignedArrayAssert.html /root/cplusplus/submodule/eigen3.4/build/doc/html/TopicUnalignedArrayAssert.html
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename html eigen-doc
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E remove eigen-doc/eigen-doc.tgz eigen-doc/unsupported/_formulas.log eigen-doc/_formulas.log
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E tar cfz eigen-doc.tgz eigen-doc
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename eigen-doc.tgz eigen-doc/eigen-doc.tgz
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && /usr/bin/cmake -E rename eigen-doc html
 
 doc: doc/CMakeFiles/doc
 doc: doc/CMakeFiles/doc.dir/build.make
@@ -74,10 +74,10 @@ doc/CMakeFiles/doc.dir/build: doc
 .PHONY : doc/CMakeFiles/doc.dir/build
 
 doc/CMakeFiles/doc.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
 .PHONY : doc/CMakeFiles/doc.dir/clean
 
 doc/CMakeFiles/doc.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc /home/user/work/cplusplus/submodule/eigen3.4/build/doc/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc /root/cplusplus/submodule/eigen3.4/build/doc/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/CMakeFiles/doc.dir/depend
 

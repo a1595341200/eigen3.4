@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/work/cplusplus/submodule/eigen3.4/doc
+# Install script for directory: /root/cplusplus/submodule/eigen3.4/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/work/cplusplus/submodule/build_install")
+  set(CMAKE_INSTALL_PREFIX "/root/cplusplus/build_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/cmake_install.cmake")
-  include("/home/user/work/cplusplus/submodule/eigen3.4/build/doc/special_examples/cmake_install.cmake")
-  include("/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/cmake_install.cmake")
+  include("/root/cplusplus/submodule/eigen3.4/build/doc/examples/cmake_install.cmake")
+  include("/root/cplusplus/submodule/eigen3.4/build/doc/special_examples/cmake_install.cmake")
+  include("/root/cplusplus/submodule/eigen3.4/build/doc/snippets/cmake_install.cmake")
 
 endif()
 

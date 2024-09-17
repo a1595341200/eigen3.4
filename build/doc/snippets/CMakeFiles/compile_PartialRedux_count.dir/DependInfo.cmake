@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_PartialRedux_count.cpp" "/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/compile_PartialRedux_count.cpp.o"
+  "/root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_PartialRedux_count.cpp" "/root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_PartialRedux_count.dir/compile_PartialRedux_count.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

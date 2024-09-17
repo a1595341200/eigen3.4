@@ -1,4 +1,4 @@
-prefix=/home/user/work/cplusplus/submodule/build_install
+prefix=/root/cplusplus/build_install
 exec_prefix=${prefix}
 
 Name: Eigen3

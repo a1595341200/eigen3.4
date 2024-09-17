@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/work/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11
+# Install script for directory: /root/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/work/cplusplus/submodule/build_install")
+  set(CMAKE_INSTALL_PREFIX "/root/cplusplus/build_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,13 +39,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE FILE FILES
-    "/home/user/work/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/Tensor"
-    "/home/user/work/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/TensorSymmetry"
-    "/home/user/work/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/ThreadPool"
+    "/root/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/Tensor"
+    "/root/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/TensorSymmetry"
+    "/root/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/ThreadPool"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/home/user/work/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/root/cplusplus/submodule/eigen3.4/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

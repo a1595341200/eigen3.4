@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "/home/user/work/cplusplus/submodule/eigen3.4")
-set(CTEST_BINARY_DIRECTORY  "/home/user/work/cplusplus/submodule/eigen3.4/build")
+set(CTEST_SOURCE_DIRECTORY  "/root/cplusplus/submodule/eigen3.4")
+set(CTEST_BINARY_DIRECTORY  "/root/cplusplus/submodule/eigen3.4/build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
-set(CTEST_BUILD_NAME        "linux-5.15.0-105-generic-_-9.4.0-sse2-64bit")
-set(CTEST_SITE              "ubuntu")
+set(CTEST_BUILD_NAME        "linux-4.19.113-perf-g1a19ce2a6a79-_-9.4.0-sse2-64bit")
+set(CTEST_SITE              "localhost")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)

@@ -4,19 +4,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/work/cplusplus/submodule/eigen3.4/test/bug1213.cpp" "/home/user/work/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/bug1213.cpp.o"
-  "/home/user/work/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp" "/home/user/work/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o"
+  "/root/cplusplus/submodule/eigen3.4/test/bug1213.cpp" "/root/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/bug1213.cpp.o"
+  "/root/cplusplus/submodule/eigen3.4/test/bug1213_main.cpp" "/root/cplusplus/submodule/eigen3.4/build/test/CMakeFiles/bug1213.dir/bug1213_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "EIGEN_CHOLMOD_SUPPORT"
+  "EIGEN_KLU_SUPPORT"
+  "EIGEN_SPQR_SUPPORT"
   "EIGEN_SUPERLU_SUPPORT"
+  "EIGEN_UMFPACK_SUPPORT"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
+  "/usr/include/suitesparse"
   "/usr/include/superlu"
   )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/work/cplusplus/submodule/eigen3.4
+# Install script for directory: /root/cplusplus/submodule/eigen3.4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/work/cplusplus/submodule/build_install")
+  set(CMAKE_INSTALL_PREFIX "/root/cplusplus/build_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE FILE FILES "/home/user/work/cplusplus/submodule/eigen3.4/signature_of_eigen3_matrix_library")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE FILE FILES "/root/cplusplus/submodule/eigen3.4/signature_of_eigen3_matrix_library")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkgconfig" TYPE FILE FILES "/home/user/work/cplusplus/submodule/eigen3.4/build/eigen3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkgconfig" TYPE FILE FILES "/root/cplusplus/submodule/eigen3.4/build/eigen3.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE DIRECTORY FILES "/home/user/work/cplusplus/submodule/eigen3.4/Eigen")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE DIRECTORY FILES "/root/cplusplus/submodule/eigen3.4/Eigen")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets.cmake"
-         "/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
+         "/root/cplusplus/submodule/eigen3.4/build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,21 +62,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES "/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES "/root/cplusplus/submodule/eigen3.4/build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES
-    "/home/user/work/cplusplus/submodule/eigen3.4/cmake/UseEigen3.cmake"
-    "/home/user/work/cplusplus/submodule/eigen3.4/build/Eigen3Config.cmake"
-    "/home/user/work/cplusplus/submodule/eigen3.4/build/Eigen3ConfigVersion.cmake"
+    "/root/cplusplus/submodule/eigen3.4/cmake/UseEigen3.cmake"
+    "/root/cplusplus/submodule/eigen3.4/build/Eigen3Config.cmake"
+    "/root/cplusplus/submodule/eigen3.4/build/Eigen3ConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/work/cplusplus/submodule/eigen3.4/build/failtest/cmake_install.cmake")
-  include("/home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/cmake_install.cmake")
+  include("/root/cplusplus/submodule/eigen3.4/build/failtest/cmake_install.cmake")
+  include("/root/cplusplus/submodule/eigen3.4/build/unsupported/cmake_install.cmake")
 
 endif()
 
@@ -88,5 +88,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user/work/cplusplus/submodule/eigen3.4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/cplusplus/submodule/eigen3.4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

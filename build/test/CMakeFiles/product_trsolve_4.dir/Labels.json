@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/user/work/cplusplus/submodule/eigen3.4/test/product_trsolve.cpp"
+			"file" : "/root/cplusplus/submodule/eigen3.4/test/product_trsolve.cpp"
 		}
 	],
 	"target" : 

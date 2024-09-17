@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for unsupported_snippets.
 
@@ -63,10 +63,10 @@ unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/build: unsupported_
 .PHONY : unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/build
 
 unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/unsupported_snippets.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/unsupported_snippets.dir/cmake_clean.cmake
 .PHONY : unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/clean
 
 unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/unsupported/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/unsupported/doc/snippets /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets /root/cplusplus/submodule/eigen3.4/build/unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unsupported/doc/snippets/CMakeFiles/unsupported_snippets.dir/depend
 

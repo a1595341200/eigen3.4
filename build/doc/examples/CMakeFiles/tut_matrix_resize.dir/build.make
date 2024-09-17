@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/examples/CMakeFiles/tut_matrix_resize.dir/depend.make
@@ -59,16 +59,16 @@ include doc/examples/CMakeFiles/tut_matrix_resize.dir/flags.make
 
 doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o: doc/examples/CMakeFiles/tut_matrix_resize.dir/flags.make
 doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o: ../doc/examples/tut_matrix_resize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o -c /root/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp
 
 doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp > CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp > CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.i
 
 doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp -o CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/doc/examples/tut_matrix_resize.cpp -o CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.s
 
 # Object files for target tut_matrix_resize
 tut_matrix_resize_OBJECTS = \
@@ -80,9 +80,9 @@ tut_matrix_resize_EXTERNAL_OBJECTS =
 doc/examples/tut_matrix_resize: doc/examples/CMakeFiles/tut_matrix_resize.dir/tut_matrix_resize.cpp.o
 doc/examples/tut_matrix_resize: doc/examples/CMakeFiles/tut_matrix_resize.dir/build.make
 doc/examples/tut_matrix_resize: doc/examples/CMakeFiles/tut_matrix_resize.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tut_matrix_resize"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tut_matrix_resize.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && ./tut_matrix_resize >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/tut_matrix_resize.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tut_matrix_resize"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tut_matrix_resize.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && ./tut_matrix_resize >/root/cplusplus/submodule/eigen3.4/build/doc/examples/tut_matrix_resize.out
 
 # Rule to build all files generated by this target.
 doc/examples/CMakeFiles/tut_matrix_resize.dir/build: doc/examples/tut_matrix_resize
@@ -90,10 +90,10 @@ doc/examples/CMakeFiles/tut_matrix_resize.dir/build: doc/examples/tut_matrix_res
 .PHONY : doc/examples/CMakeFiles/tut_matrix_resize.dir/build
 
 doc/examples/CMakeFiles/tut_matrix_resize.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/tut_matrix_resize.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/examples && $(CMAKE_COMMAND) -P CMakeFiles/tut_matrix_resize.dir/cmake_clean.cmake
 .PHONY : doc/examples/CMakeFiles/tut_matrix_resize.dir/clean
 
 doc/examples/CMakeFiles/tut_matrix_resize.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples /home/user/work/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/tut_matrix_resize.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/examples /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/examples /root/cplusplus/submodule/eigen3.4/build/doc/examples/CMakeFiles/tut_matrix_resize.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/examples/CMakeFiles/tut_matrix_resize.dir/depend
 

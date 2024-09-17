@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Utility rule file for lapack.
 
@@ -63,10 +63,10 @@ lapack/CMakeFiles/lapack.dir/build: lapack
 .PHONY : lapack/CMakeFiles/lapack.dir/build
 
 lapack/CMakeFiles/lapack.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/lapack && $(CMAKE_COMMAND) -P CMakeFiles/lapack.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/lapack && $(CMAKE_COMMAND) -P CMakeFiles/lapack.dir/cmake_clean.cmake
 .PHONY : lapack/CMakeFiles/lapack.dir/clean
 
 lapack/CMakeFiles/lapack.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/lapack /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/lapack /home/user/work/cplusplus/submodule/eigen3.4/build/lapack/CMakeFiles/lapack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/lapack /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/lapack /root/cplusplus/submodule/eigen3.4/build/lapack/CMakeFiles/lapack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lapack/CMakeFiles/lapack.dir/depend
 

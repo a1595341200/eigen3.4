@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/depend.make
@@ -60,16 +60,16 @@ include doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/flags.make
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o: doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/flags.make
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o: doc/snippets/compile_TopicAliasing_cwise.cpp
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o: ../doc/snippets/TopicAliasing_cwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o -c /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp
 
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp > CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp > CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.i
 
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp -o CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_TopicAliasing_cwise.cpp -o CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.s
 
 # Object files for target compile_TopicAliasing_cwise
 compile_TopicAliasing_cwise_OBJECTS = \
@@ -81,9 +81,9 @@ compile_TopicAliasing_cwise_EXTERNAL_OBJECTS =
 doc/snippets/compile_TopicAliasing_cwise: doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/compile_TopicAliasing_cwise.cpp.o
 doc/snippets/compile_TopicAliasing_cwise: doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build.make
 doc/snippets/compile_TopicAliasing_cwise: doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_TopicAliasing_cwise"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_TopicAliasing_cwise.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_TopicAliasing_cwise >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/TopicAliasing_cwise.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_TopicAliasing_cwise"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_TopicAliasing_cwise.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_TopicAliasing_cwise >/root/cplusplus/submodule/eigen3.4/build/doc/snippets/TopicAliasing_cwise.out
 
 # Rule to build all files generated by this target.
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build: doc/snippets/compile_TopicAliasing_cwise
@@ -91,10 +91,10 @@ doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build: doc/snippets/comp
 .PHONY : doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/build
 
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_TopicAliasing_cwise.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_TopicAliasing_cwise.dir/cmake_clean.cmake
 .PHONY : doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/clean
 
 doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/snippets /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/snippets /root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/snippets/CMakeFiles/compile_TopicAliasing_cwise.dir/depend
 

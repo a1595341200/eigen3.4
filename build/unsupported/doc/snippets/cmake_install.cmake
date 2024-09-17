@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/work/cplusplus/submodule/eigen3.4/unsupported/doc/snippets
+# Install script for directory: /root/cplusplus/submodule/eigen3.4/unsupported/doc/snippets
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/work/cplusplus/submodule/build_install")
+  set(CMAKE_INSTALL_PREFIX "/root/cplusplus/build_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

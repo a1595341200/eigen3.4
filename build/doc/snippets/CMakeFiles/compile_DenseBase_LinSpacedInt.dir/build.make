@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/work/cplusplus/submodule/eigen3.4
+CMAKE_SOURCE_DIR = /root/cplusplus/submodule/eigen3.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/work/cplusplus/submodule/eigen3.4/build
+CMAKE_BINARY_DIR = /root/cplusplus/submodule/eigen3.4/build
 
 # Include any dependencies generated for this target.
 include doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/depend.make
@@ -60,16 +60,16 @@ include doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/flags.make
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o: doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/flags.make
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o: doc/snippets/compile_DenseBase_LinSpacedInt.cpp
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o: ../doc/snippets/DenseBase_LinSpacedInt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o -c /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o -c /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp
 
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.i"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp > CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.i
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp > CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.i
 
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.s"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp -o CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.s
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/cplusplus/submodule/eigen3.4/build/doc/snippets/compile_DenseBase_LinSpacedInt.cpp -o CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.s
 
 # Object files for target compile_DenseBase_LinSpacedInt
 compile_DenseBase_LinSpacedInt_OBJECTS = \
@@ -81,9 +81,9 @@ compile_DenseBase_LinSpacedInt_EXTERNAL_OBJECTS =
 doc/snippets/compile_DenseBase_LinSpacedInt: doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/compile_DenseBase_LinSpacedInt.cpp.o
 doc/snippets/compile_DenseBase_LinSpacedInt: doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/build.make
 doc/snippets/compile_DenseBase_LinSpacedInt: doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/work/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_DenseBase_LinSpacedInt"
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_DenseBase_LinSpacedInt.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_DenseBase_LinSpacedInt >/home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/DenseBase_LinSpacedInt.out
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/cplusplus/submodule/eigen3.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compile_DenseBase_LinSpacedInt"
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile_DenseBase_LinSpacedInt.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && ./compile_DenseBase_LinSpacedInt >/root/cplusplus/submodule/eigen3.4/build/doc/snippets/DenseBase_LinSpacedInt.out
 
 # Rule to build all files generated by this target.
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/build: doc/snippets/compile_DenseBase_LinSpacedInt
@@ -91,10 +91,10 @@ doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/build: doc/snippets/c
 .PHONY : doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/build
 
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/clean:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_DenseBase_LinSpacedInt.dir/cmake_clean.cmake
+	cd /root/cplusplus/submodule/eigen3.4/build/doc/snippets && $(CMAKE_COMMAND) -P CMakeFiles/compile_DenseBase_LinSpacedInt.dir/cmake_clean.cmake
 .PHONY : doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/clean
 
 doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/depend:
-	cd /home/user/work/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/work/cplusplus/submodule/eigen3.4 /home/user/work/cplusplus/submodule/eigen3.4/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets /home/user/work/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/cplusplus/submodule/eigen3.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/cplusplus/submodule/eigen3.4 /root/cplusplus/submodule/eigen3.4/doc/snippets /root/cplusplus/submodule/eigen3.4/build /root/cplusplus/submodule/eigen3.4/build/doc/snippets /root/cplusplus/submodule/eigen3.4/build/doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/snippets/CMakeFiles/compile_DenseBase_LinSpacedInt.dir/depend
 

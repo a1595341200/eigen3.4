@@ -1,4 +1,4 @@
 # Target labels
  BuildOfficial
 # Source files and their labels
-/home/user/work/cplusplus/submodule/eigen3.4/test/type_alias.cpp
+/root/cplusplus/submodule/eigen3.4/test/type_alias.cpp
